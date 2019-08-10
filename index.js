@@ -47,7 +47,7 @@ function Container(props){
 }
 
 function MainVideoCard({video}){
-	const src='http://youtube.com/embed/'+video.id;
+	const src='https://youtube.com/embed/'+video.id;
 	return (
 	<div style={{width:"100%"}}>
 		<iframe frameBorder='0' height='500px'  width='100%' src={src} />
